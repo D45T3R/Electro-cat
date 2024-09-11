@@ -1,1 +1,1 @@
-# Electro-cat
+permalink: /index.html
