@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electro-сat</title>
+    <link rel="stylesheet" href="css/registration.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="welcome">Добро пожаловать в Electro-cat, пожалуйста авторизируйтесь</div>
+            <form action="php/auth.php" method="post" id="forms">
+                <h2>Авторизация</h2>
+                <label for="login" id="login_txt">Логин:</label>
+                <input type="text" id="login" name="login" class="form-input"><br>
+
+                <label for="password" id="password_txt">Пароль:</label>
+                <input type="password" id="password" name="password" class="form-input"> Показать пароль <input
+                    type="checkbox" id="show-password" onclick="togglePassword()"><br>
+
+                <input type="submit" value="Войти" id="btnsubmit">
+                <input type="button" value="Зарегестрироваться" onclick="location.href='pages/registration.html'">
+            </form>
+        </div>
+        <div class="right">
+            <div class="logo"><img src="sourse/logo.png" alt="" width="100%"></div>
+            <div class="title">Electro-сat</div>
+        </div>
+    </div>
+    <footer>
+        <p>Если возникли проблемы обратитесь в тех поддержку: <a
+                href="mailto:Electro-cat_support@gmail.com">Electro-cat_support@gmail.com</a></p>
+    </footer>
+    <script src="js/auth.js"></script>
+</body>
+
+</html>

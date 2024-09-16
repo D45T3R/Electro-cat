@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/kursach/css/reg.css">
+</head>
+
+<body>
+    <script src="/kursach/js/reg.js"></script>
+
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="/kursach/sourse/logo.png" alt="Logo" width="100%">
+            </div>
+            <div class="title">Electro-cat</div>
+        </div>
+        <div class="right">
+            <div class="registration-form">
+                <form onsubmit="return check()">
+                    <label for="name" class="form-label" id="name_txt">Имя</label>
+                    <input type="text" id="name" class="form-input">
+                    <label for="surname" class="form-label" id="surname_txt">Фамилия</label>
+                    <input type="text" id="surname" class="form-input">
+                    <label for="login" class="form-label" id="login_txt">Логин</label>
+                    <input type="text" id="login" class="form-input">
+                    <label for="password" class="form-label" id="password_txt">Пароль</label>
+                    <input type="password" id="password" class="form-input">
+                    Показать пароль <input type="checkbox" id="show-password" onclick="togglePassword()">
+                    <input type="submit" value="Зарегистрироваться">
+                    <input type="button" value="Обратно" onclick="location.href='/kursach/index.html'">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Если возникли проблемы обратитесь в тех поддержку: <a
+                href="mailto:Electro-cat_support@gmail.com">Electro-cat_support@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>

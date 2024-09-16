@@ -1,0 +1,45 @@
+#employee-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.modal {
+  display: none;
+}
+#employee-table th,
+#employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#employee-table th {
+  background-color: #f0f0f0;
+}
+
+#employee-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* Style for the scooter table */
+#scooter-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#scooter-table th,
+#scooter-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#scooter-table th {
+  background-color: #f0f0f0;
+}
+
+#scooter-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#scooter-table tr:hover {
+  background-color: #ddd;
+}
